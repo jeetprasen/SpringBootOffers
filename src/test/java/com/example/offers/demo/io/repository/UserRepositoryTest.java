@@ -40,7 +40,7 @@ class UserRepositoryTest {
 	
 	String firstName="Prasen";
 	String lastName="Jeet";
-	String userId;
+	String userId="DWEJ6ZifKK";
 	
 	static boolean recordsCreated = false;
 	
@@ -62,7 +62,8 @@ class UserRepositoryTest {
 		generatedUsers.get(1).setFirstName(firstName);
 		generatedUsers.get(0).setLastName(lastName);
 		generatedUsers.get(1).setLastName(lastName);
-		userId = generatedUsers.get(0).getUserId();
+		generatedUsers.get(0).setUserId(userId);
+		//userId = generatedUsers.get(0).getUserId();
 		
 		userRepository.saveAll(generatedUsers);		
 		stopwatch.stop();

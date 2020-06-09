@@ -12,7 +12,7 @@
 	<groupId>com.example.offers</groupId>
 	<artifactId>offers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>demo</name>
 	<description>Demo Offers Using Spring Boot</description>
 
