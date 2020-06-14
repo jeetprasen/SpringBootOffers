@@ -130,7 +130,7 @@
 						</configuration>
 						<phase>prepare-package</phase>
 						<goals>
-							<goal>exploded</goal>
+							<goal>inplace</goal>
 						</goals>
 					</execution>
 				</executions>
