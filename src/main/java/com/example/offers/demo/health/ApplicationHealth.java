@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.offers.demo.health;
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 import org.springframework.stereotype.Component;
