@@ -5,7 +5,7 @@ package com.example.demo;
 public class ApplicationHealth {
   
   @ReadOperation
-  public string showDesc() {
+  public String showDesc() {
     return "My Application is Running just fine";
   }
 }
