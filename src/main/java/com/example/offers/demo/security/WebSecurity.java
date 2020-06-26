@@ -35,6 +35,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
+	  // addinng actuator 
 		
 		http.csrf().disable().authorizeRequests().antMatchers(HttpMethod.POST, SecurityConstants.SIGN_UP_URL)
 		.permitAll()
@@ -65,5 +66,6 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 		filter.setFilterProcessesUrl("/users/login");
 		return filter;
 	}
+	
 	
 }
